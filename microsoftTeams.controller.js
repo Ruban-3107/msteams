@@ -7,7 +7,7 @@ const { BitlyClient } = require('bitly');
 const bitly = new BitlyClient('c8cebad1cddff646ce8b99129d409c7101cf0dda', {});
 const {log,dateTime}=require('../../config/winston')
 
-
+console.log("testing");
 function encrypt(data){
   try {
     
